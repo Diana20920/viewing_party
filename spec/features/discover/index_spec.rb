@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe 'Discover Page' do
+RSpec.describe 'Discover Page', :vcr do
   before :each do
     visit '/login'
     email = "example@example.com"
@@ -29,12 +29,9 @@ RSpec.describe 'Discover Page' do
     end
 
     it 'can see results for 10 upcoming movies' do
-      VCR.use_cassette('ten_upcoming_movies') do
-
         click_link "10 Upcoming Movies"
-        expect(page).to have_content("Godzilla vs. Kong")
-        expect(page).to have_content("2021-03-24")
-      end
+        expect(page).to have_content("Raya and the Last Dragon")
+        expect(page).to have_content("2021-03-03")
     end
   end
 
