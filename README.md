@@ -1,6 +1,7 @@
 # Viewing Party
 <p align="center"><img src="assets/README-38db82c2.png"></p>
 
+[![CircleCI](https://circleci.com/gh/Diana20920/viewing_party/tree/main.svg?style=svg)](https://circleci.com/gh/Diana20920/viewing_party/tree/main) [![Heroku](https://img.shields.io/badge/heroku-DEPLOYED-blueviolet)](https://movie-party-2021.herokuapp.com/)
 
 <!-- ![Travis (.com)](https://img.shields.io/travis/com/gaelyn/viewing_party) -->
 
@@ -26,10 +27,11 @@ Welcome to Viewing Party, a fun social platform where you can create a virtual m
 
 ## Getting Started
 
-This app has been deployed to [Heroku](https://www.heroku.com/home) with [Travis CI](https://www.travis-ci.com/) and can be found [here](https://nameless-lowlands-35724.herokuapp.com/)
+This app has been deployed to [Heroku](https://www.heroku.com/home) with [Circle CI](https://circleci.com/) and can be found [here](https://movie-party-2021.herokuapp.com/)
 
 To run the web application on your local machine, you can fork and clone down the repo and follow the installation instructions below.
-You will need to request your own API key from TMDB, you can do so [here](https://developers.themoviedb.org/3/getting-started/introduction)
+
+_You will need to request an API key from TMDB, you can do so [here](https://developers.themoviedb.org/3/getting-started/introduction)_
 
 
 ### Installing
