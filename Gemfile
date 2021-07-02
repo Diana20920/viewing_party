@@ -18,6 +18,7 @@ gem 'bootsnap'
 gem 'jbuilder', '~> 2.5'
 gem 'faraday'
 gem 'bcrypt'
+gem 'bootstrap-sass'
 
 group :development, :test do
   gem 'pry'
