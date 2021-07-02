@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/Diana20920/viewing_party/tree/main.svg?style=svg)](https://circleci.com/gh/Diana20920/viewing_party/tree/main) 
+
 # Viewing Party
 <p align="center"><img src="assets/README-38db82c2.png"></p>
 
