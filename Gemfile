@@ -19,6 +19,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'faraday'
 gem 'bcrypt'
 gem 'bootstrap-sass'
+gem 'jquery-rails'
 
 group :development, :test do
   gem 'pry'

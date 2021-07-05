@@ -10,5 +10,9 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+// Loads all Bootstrap javascripts
+//= require bootstrap
 //= require rails-ujs
 //= require_tree .
+//= require jquery3
+//= require bootstrap-sprockets
